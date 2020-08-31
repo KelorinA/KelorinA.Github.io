@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url('képek/letöltés.jpg')
+	
+    
+	
+}
+* {
+	box-sizing: border-box
+}
+
+.fooldal {
+	color: blue;
+	text-decoration: none;
+}
+
+.t {
+	padding: 50px 50px 50px 50px;
+}
+
+.td-m {
+	font-size: 35px;
+	padding: 40px ;
+	border: 1px solid black;
+}
+
+.meccs {
+	font-size: 35px;
+	padding: 40px ;
+	border: 1px solid black;
+}
+
+.t-1 {
+	position: center;
+}
+
+header{
+    background: url('képek/chelseahead.jpg') no-repeat right top ;
+    color: white;
+	font-size: 80px;
+	font-weight: 700;
+	padding: 80px 60px 0 0;
+	text-shadow:  rgba(255, 0, 0, 0.5)
+}
+
+.wrapper{
+	max-width: 1500px;
+	margin: 0 auto;
+}
+nav{
+width: 25%;
+float: left;
+}
+
+nav ul{
+margin: 0px;
+padding: 30px;
+font-size: 30px;
+
+}
+
+nav ul li {
+	border-bottom: 1px dashed white;
+	list-style: none;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 15px 0;
+	display: block;
+}
+
+nav a:hover{
+	padding: 15px;
+	background:rgba(255, 255, 255, 0.4);
+}
+
+main{
+	width: 75%;
+	background: white;
+	float: left;
+	padding: 30px ;
+}
+main.main-m {
+	padding: 30px 30px 1000px 30px;
+	
+}
+/*
+main img{
+	float: left;
+}*/
+
+.float-right{
+	float: right;
+	margin: 0 0 20px 20px;
+}
+.float-left{
+	float: left;
+	margin: 0 20px 20px 0px;
+}
+
+.content{
+	background-color: blue;
+}
+
+.content::after,
+footer::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+	
+main p {
+	line-height: 30px ;
+}  
+
+footer {
+	padding: 20px 0;
+	
+	
+}
+footer a {
+	color: black;
+}
+
+footer .right{
+float: right;
+}
+footer .left {
+float: left;
+}
+
+.elsoh1 {
+	margin-top: 0;
+}
+h1 span{
+	font-size: 50px;
+	background: blue;
+	color: white;
+	-webkit-box-decoration-break: clone;
+ 	-o-box-decoration-break: clone;
+  	box-decoration-break: clone; 
+  	border-left: 10px solid blue;
+  	border-right: 10px solid blue;
+}
